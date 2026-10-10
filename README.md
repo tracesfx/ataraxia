@@ -3,6 +3,8 @@
 An original 4-key rhythm game for the browser. Notes scroll down to a hit line; play them with
 **S D J K** (rebindable in Settings). Everything runs locally; no server or account.
 
+Play here: https://tracesfx.github.io/ataraxia/
+
 It comes in two builds from one codebase:
 
 - **Player** (`npm run build`, output in `dist/`): play, practice, settings and calibration, best
@@ -24,4 +26,3 @@ See [CLAUDE.md](CLAUDE.md) for the rules and roadmap and
 [docs/architecture.md](docs/architecture.md) for how the two builds work.
 
 Showcase video: https://www.youtube.com/watch?v=-Fn40HK3BT0
-Try on your browser: https://tracesfx.github.io/ataraxia/
