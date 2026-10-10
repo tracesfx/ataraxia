@@ -22,3 +22,5 @@ The split leaves the editing UI and code out of the player build. It is not copy
 
 See [CLAUDE.md](CLAUDE.md) for the rules and roadmap and
 [docs/architecture.md](docs/architecture.md) for how the two builds work.
+
+Showcase video: https://www.youtube.com/watch?v=-Fn40HK3BT0
