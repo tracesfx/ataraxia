@@ -1,0 +1,372 @@
+/* Studio-only menu styles (cover tools and the crop dialog). Only in the Studio bundle. */
+
+.detail-cover-tools {
+  display: flex;
+  align-items: center;
+  gap: var(--s1);
+  margin-top: var(--s2);
+}
+
+.detail-cover-tools[hidden] {
+  display: none;
+}
+
+.detail-cover-label {
+  margin-right: auto;
+  color: var(--c-text-muted);
+}
+
+.detail-cover.is-editable {
+  cursor: copy;
+}
+
+.editor-cover {
+  display: inline-flex;
+  flex: none;
+}
+
+dialog.modal--crop {
+  width: min(calc(var(--px) * 420), calc(100vw - var(--s4)));
+}
+
+.crop-dialog {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--s4);
+}
+
+.crop-frame {
+  width: min(calc(var(--px) * 200), calc(100vw - var(--s6) * 2));
+  aspect-ratio: 1;
+  flex: none;
+  background: var(--steel-0);
+  outline: var(--px) solid var(--steel-4);
+  cursor: grab;
+  touch-action: none;
+  image-rendering: auto;
+}
+
+.crop-frame.is-dragging {
+  cursor: grabbing;
+}
+
+.crop-frame:focus-visible {
+  outline: calc(var(--px) * 2) solid var(--accent-5);
+}
+
+.crop-side {
+  display: flex;
+  flex: 1 1 calc(var(--px) * 140);
+  flex-direction: column;
+  gap: var(--s2);
+  min-width: 0;
+}
+
+.crop-previews {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--s3);
+}
+
+.crop-label {
+  color: var(--c-text-muted);
+}
+
+.crop-help {
+  color: var(--c-text-muted);
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+}
+
+/* --- Background dialog (song details -> Background) --------------------------------------- */
+
+dialog.modal.background-dialog {
+  width: min(calc(var(--px) * 700), calc(100vw - var(--s4)));
+}
+
+/* The preview is drawn on the gameplay pixel grid and scaled up without smoothing. */
+.bg-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  image-rendering: pixelated;
+  background: var(--steel-0);
+}
+
+.bg-editor {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: var(--s4);
+}
+
+:root[data-layout='narrow'] .bg-editor,
+:root[data-layout='medium'] .bg-editor {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* The preview column stays in view while the controls scroll. */
+.bg-main {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--s2);
+}
+
+.bg-controls .setting-row {
+  grid-template-columns: minmax(0, 1fr) minmax(calc(var(--px) * 110), calc(var(--px) * 150));
+  padding: var(--s1) 0;
+}
+
+.bg-inline {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.bg-inline .slider {
+  flex: 1;
+}
+
+.bg-fx-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+}
+
+.bg-fx-head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) minmax(calc(var(--px) * 90), calc(var(--px) * 130));
+  align-items: center;
+  gap: var(--s2);
+}
+
+.bg-fx-head .btn {
+  justify-content: flex-start;
+}
+
+.bg-fx-head .btn.is-open .icon {
+  transform: rotate(180deg);
+}
+
+.bg-fx:not(.is-on) .bg-fx-head .slider {
+  opacity: 0.55;
+}
+
+.bg-fx-body {
+  padding: 0 0 var(--s2) var(--s6);
+}
+
+.bg-color-field {
+  display: inline-flex;
+  padding: 0;
+}
+
+.bg-color {
+  width: calc(var(--px) * 40);
+  height: calc(var(--px) * 16);
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.detail-background-summary {
+  color: var(--c-text-muted);
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+}
+
+.detail-extra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s2);
+}
+
+/* Phase 21: pictures, collapsible groups, emitters and custom sprites. */
+
+.bg-pictures {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s1);
+}
+
+.bg-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s1);
+}
+
+.bg-thumb-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-thumb {
+  width: calc(var(--px) * 40);
+  height: calc(var(--px) * 24);
+  padding: 0;
+  border: calc(var(--px) * 2) solid var(--steel-2);
+  background: var(--steel-0);
+  cursor: pointer;
+}
+
+.bg-thumb.is-on {
+  border-color: var(--accent-6);
+}
+
+.bg-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bg-group-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s1);
+}
+
+.bg-group-head > .btn:first-child {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.bg-group-head .btn.is-open .icon,
+.bg-emitter-head .btn.is-open .icon {
+  transform: rotate(180deg);
+}
+
+.bg-group-box.is-disabled .bg-fx-body {
+  opacity: 0.55;
+}
+
+.bg-emitter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+  padding: var(--s2);
+}
+
+.bg-emitter:not(.is-on) .bg-emitter-body {
+  opacity: 0.6;
+}
+
+.bg-emitter-head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto auto;
+  align-items: center;
+  gap: var(--s1);
+}
+
+.bg-emitter-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-emitter-body .bg-fx-body {
+  padding-left: var(--s3);
+}
+
+.bg-palette {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s1);
+}
+
+.bg-sprites {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+}
+
+.bg-sprite-cell {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.bg-sprite-img {
+  width: calc(var(--px) * 16);
+  height: calc(var(--px) * 16);
+  image-rendering: pixelated;
+  object-fit: contain;
+  background: var(--steel-0);
+}
+
+.bg-bake-status {
+  color: var(--c-text-muted);
+}
+
+/* --- Sprite editor ---------------------------------------------------------------------- */
+
+dialog.modal.sprite-dialog {
+  width: min(calc(var(--px) * 460), calc(100vw - var(--s4)));
+}
+
+.sprite-editor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--s4);
+}
+
+.sprite-grid {
+  display: block;
+  width: min(calc(var(--px) * 192), calc(100vw - var(--s6) * 2));
+  height: auto;
+  aspect-ratio: 1;
+  image-rendering: pixelated;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.sprite-side {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--s2);
+  min-width: calc(var(--px) * 160);
+}
+
+.sprite-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: calc(var(--px) * 2);
+}
+
+.sprite-swatch {
+  width: calc(var(--px) * 12);
+  height: calc(var(--px) * 12);
+  padding: 0;
+  border: calc(var(--px) * 2) solid var(--steel-1);
+  cursor: pointer;
+}
+
+.sprite-swatch.is-on {
+  border-color: var(--steel-8);
+}
+
+.sprite-preview {
+  display: block;
+  width: calc(var(--px) * 120);
+  height: auto;
+  image-rendering: pixelated;
+}

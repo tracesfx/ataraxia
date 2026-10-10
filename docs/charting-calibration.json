@@ -1,0 +1,806 @@
+{
+  "reference": "Hard chart, 220 BPM, 1274 notes",
+  "seeds": [1, 2, 3, 4, 5],
+  "difficulties": {
+    "Easy": {
+      "summary": {
+        "composite": 0.5239135272004257,
+        "f1": 0.5870413739266199,
+        "precision": 0.8545454545454545,
+        "recall": 0.4470868014268728,
+        "meanNps": 2.177390527256476,
+        "correlation": 0.4693105041468546,
+        "intenseCalm": 1.1052631578947365,
+        "calmMin": 0,
+        "calmP10": 0,
+        "empty": 0.2303206997084548,
+        "gap": 818,
+        "peakNps": 3.6666666666666665,
+        "p90Nps": 2.7500000000000067,
+        "burstNps": 7.333333333333333,
+        "leadRunRecall": 0.5,
+        "fastRecall": 0.25,
+        "holdsPerMin": 54.81441928580382,
+        "shortHolds": 0,
+        "holdMs": 434.9130608705972,
+        "layered": 0.011609002076101493,
+        "chord": 0.023181818181818182,
+        "jack": 0,
+        "trill": 0.4514285714285714,
+        "stair": 0.18285714285714283,
+        "left": 0.4693001689321953,
+        "entropy": 2.40799864277848,
+        "repetition": 0.7057627596816874,
+        "scores": {
+          "rhythmF1": 0.5870413739266199,
+          "densityCorrelation": 0.4693105041468546,
+          "meanDensity": 0.07006369984783112,
+          "intenseCalm": 0.5571924042307099,
+          "calmFloor": 0.7696793002915452,
+          "intenseGap": 0.6616648690507586,
+          "leadRuns": 0.375,
+          "holds": 0.4790840753317995,
+          "lanes": 0.44433777650624495,
+          "repetition": 0.8231446544356065
+        }
+      },
+      "seeds": [
+        {
+          "seed": 1,
+          "composite": 0.5236978084687969,
+          "f1": 0.5870413739266199
+        },
+        {
+          "seed": 2,
+          "composite": 0.5247798524235858,
+          "f1": 0.5870413739266199
+        },
+        {
+          "seed": 3,
+          "composite": 0.5182451191530911,
+          "f1": 0.5870413739266199
+        },
+        {
+          "seed": 4,
+          "composite": 0.5243339705027205,
+          "f1": 0.5870413739266199
+        },
+        {
+          "seed": 5,
+          "composite": 0.5285108854539344,
+          "f1": 0.5870413739266199
+        }
+      ]
+    },
+    "Normal": {
+      "summary": {
+        "composite": 0.6955811939133058,
+        "f1": 0.6727629000653168,
+        "precision": 0.7463768115942029,
+        "recall": 0.6123662306777645,
+        "meanNps": 3.3914209115281495,
+        "correlation": 0.48682666558523013,
+        "intenseCalm": 1.247422680412371,
+        "calmMin": 0,
+        "calmP10": 1.8333333333333333,
+        "empty": 0.037900874635568516,
+        "gap": 546,
+        "peakNps": 5.5,
+        "p90Nps": 4.583333333333345,
+        "burstNps": 11,
+        "leadRunRecall": 0.6818181818181818,
+        "fastRecall": 0.25,
+        "holdsPerMin": 77.93382023193037,
+        "shortHolds": 0.39039912901504265,
+        "holdMs": 289.9324896141986,
+        "layered": 0.10220774738840895,
+        "chord": 0.13420289855072462,
+        "jack": 0.04943820224719101,
+        "trill": 0.4031626811174004,
+        "stair": 0.26305762834116386,
+        "left": 0.497831551430456,
+        "entropy": 3.4548454010562124,
+        "repetition": 0.5869291007986788,
+        "scores": {
+          "rhythmF1": 0.6727629000653168,
+          "densityCorrelation": 0.48682666558523013,
+          "meanDensity": 0.709353362958346,
+          "intenseCalm": 0.7317528899830021,
+          "calmFloor": 0.9620991253644317,
+          "intenseGap": 1,
+          "leadRuns": 0.46590909090909094,
+          "holds": 0.7410505257532862,
+          "lanes": 0.6271080344765992,
+          "repetition": 0.9391880277983763
+        }
+      },
+      "seeds": [
+        {
+          "seed": 1,
+          "composite": 0.7006523028332199,
+          "f1": 0.6727629000653168
+        },
+        {
+          "seed": 2,
+          "composite": 0.690267259577643,
+          "f1": 0.6727629000653168
+        },
+        {
+          "seed": 3,
+          "composite": 0.697011113075942,
+          "f1": 0.6727629000653168
+        },
+        {
+          "seed": 4,
+          "composite": 0.6953120226943367,
+          "f1": 0.6727629000653168
+        },
+        {
+          "seed": 5,
+          "composite": 0.6946632713853867,
+          "f1": 0.6727629000653168
+        }
+      ]
+    },
+    "Hard": {
+      "summary": {
+        "composite": 0.7512335905685635,
+        "f1": 0.6855164454702828,
+        "precision": 0.6659192825112108,
+        "recall": 0.7063020214030915,
+        "meanNps": 4.384271671134949,
+        "correlation": 0.4864740279878378,
+        "intenseCalm": 1.2509652509652511,
+        "calmMin": 1.8333333333333333,
+        "calmP10": 1.8333333333333333,
+        "empty": 0,
+        "gap": 545,
+        "peakNps": 7.333333333333333,
+        "p90Nps": 5.500000000000013,
+        "burstNps": 11,
+        "leadRunRecall": 0.7272727272727273,
+        "fastRecall": 0.375,
+        "holdsPerMin": 79.96183785878358,
+        "shortHolds": 0.45918181952074705,
+        "holdMs": 269.60799930704616,
+        "layered": 0.25409810314097714,
+        "chord": 0.36659192825112114,
+        "jack": 0.17311233885819519,
+        "trill": 0.42642126575536865,
+        "stair": 0.22678611326016584,
+        "left": 0.4966358988237256,
+        "entropy": 3.531548731684771,
+        "repetition": 0.6111570981483223,
+        "scores": {
+          "rhythmF1": 0.6855164454702828,
+          "densityCorrelation": 0.4864740279878378,
+          "meanDensity": 0.920199288786878,
+          "intenseCalm": 0.7358442100936067,
+          "calmFloor": 1,
+          "intenseGap": 1,
+          "leadRuns": 0.5511363636363636,
+          "holds": 0.804732655489012,
+          "lanes": 0.8373766347326193,
+          "repetition": 0.9876440224976634
+        }
+      },
+      "seeds": [
+        {
+          "seed": 1,
+          "composite": 0.7521433502433768,
+          "f1": 0.6855164454702828
+        },
+        {
+          "seed": 2,
+          "composite": 0.7521425134438978,
+          "f1": 0.6855164454702828
+        },
+        {
+          "seed": 3,
+          "composite": 0.7498542511280486,
+          "f1": 0.6855164454702828
+        },
+        {
+          "seed": 4,
+          "composite": 0.7479248720480489,
+          "f1": 0.6855164454702828
+        },
+        {
+          "seed": 5,
+          "composite": 0.7541029659794455,
+          "f1": 0.6855164454702828
+        }
+      ]
+    },
+    "Expert": {
+      "summary": {
+        "composite": 0.6774757782750253,
+        "f1": 0.6584125398643439,
+        "precision": 0.5519794585589122,
+        "recall": 0.8156956004756243,
+        "meanNps": 6.103574620196608,
+        "correlation": 0.5125114557492971,
+        "intenseCalm": 1.4118694362017807,
+        "calmMin": 1.8333333333333333,
+        "calmP10": 3.6666666666666665,
+        "empty": 0,
+        "gap": 409,
+        "peakNps": 11.916666666666666,
+        "p90Nps": 7.333333333333352,
+        "burstNps": 18.333333333333332,
+        "leadRunRecall": 0.9545454545454547,
+        "fastRecall": 0.375,
+        "holdsPerMin": 106.78961389401316,
+        "shortHolds": 0.6837610727735824,
+        "holdMs": 209.507960919455,
+        "layered": 0.32309250850011856,
+        "chord": 0.5988078813011479,
+        "jack": 0.2317470257888125,
+        "trill": 0.4790983193277311,
+        "stair": 0.2372914604730781,
+        "left": 0.4963198244307134,
+        "entropy": 3.4718589533257855,
+        "repetition": 0.7834118019961217,
+        "scores": {
+          "rhythmF1": 0.6584125398643439,
+          "densityCorrelation": 0.5125114557492971,
+          "meanDensity": 0.4428821421047278,
+          "intenseCalm": 0.9104086650036942,
+          "calmFloor": 1,
+          "intenseGap": 1,
+          "leadRuns": 0.6647727272727273,
+          "holds": 0.520742027181158,
+          "lanes": 0.6909425314052193,
+          "repetition": 0.6678465698067381
+        }
+      },
+      "seeds": [
+        {
+          "seed": 1,
+          "composite": 0.6816993933272123,
+          "f1": 0.6583493282149713
+        },
+        {
+          "seed": 2,
+          "composite": 0.680772882923177,
+          "f1": 0.6583493282149713
+        },
+        {
+          "seed": 3,
+          "composite": 0.6763767098596004,
+          "f1": 0.6583493282149713
+        },
+        {
+          "seed": 4,
+          "composite": 0.6764149146933808,
+          "f1": 0.6586653864618339
+        },
+        {
+          "seed": 5,
+          "composite": 0.6721149905717557,
+          "f1": 0.6583493282149713
+        }
+      ]
+    }
+  },
+  "layers": {
+    "hits": 841,
+    "explained": 0.915576694411415,
+    "explainedByChance": 0.5582639714625446,
+    "explainedLoose": 0.990487514863258,
+    "primaryShare": {
+      "kick": 0.13436385255648037,
+      "snare": 0.1700356718192628,
+      "hats": 0.11890606420927467,
+      "bass": 0.1426872770511296,
+      "lead": 0.19500594530321047,
+      "other": 0.1545778834720571
+    },
+    "anyShare": {
+      "kick": 0.40784780023781214,
+      "snare": 0.5945303210463734,
+      "hats": 0.4482758620689655,
+      "bass": 0.4399524375743163,
+      "lead": 0.6266349583828775,
+      "other": 0.5505350772889417
+    },
+    "gridShare": {
+      "kick": 0.36778523489932885,
+      "snare": 0.40671140939597317,
+      "hats": 0.3080536912751678,
+      "bass": 0.33691275167785234,
+      "lead": 0.4570469798657718,
+      "other": 0.3865771812080537
+    },
+    "lift": {
+      "kick": 1.1089292378728834,
+      "snare": 1.461798974189928,
+      "hats": 1.4551874389602584,
+      "bass": 1.3058349242743652,
+      "lead": 1.3710515242151065,
+      "other": 1.4241271964592415
+    },
+    "leadRuns": {
+      "runs": 12,
+      "runOnsets": 68,
+      "refChartsOnsets": 0.35294117647058826,
+      "genChartsOnsets": 0.4852941176470588,
+      "refHits": 22,
+      "leadRecall": 0.8181818181818182,
+      "anyRecall": 0.9545454545454546,
+      "generatedRecall": 0.7272727272727273
+    },
+    "fastPassages": {
+      "passages": 1,
+      "refHits": 8,
+      "leadRecall": 0.375,
+      "anyRecall": 0.5,
+      "generatedRecall": 0.375
+    },
+    "misses": [
+      {
+        "startMs": 996,
+        "endMs": 1439,
+        "count": 5,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 2019,
+        "endMs": 2530,
+        "count": 4,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 3706,
+        "endMs": 3706,
+        "count": 1,
+        "role": "build-up",
+        "context": "drums or percussion only",
+        "band": "high"
+      },
+      {
+        "startMs": 5309,
+        "endMs": 5309,
+        "count": 1,
+        "role": "build-up",
+        "context": "quiet passage",
+        "band": "high"
+      },
+      {
+        "startMs": 8581,
+        "endMs": 8581,
+        "count": 1,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 13473,
+        "endMs": 14019,
+        "count": 3,
+        "role": "build-up",
+        "context": "drums or percussion only",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 15297,
+        "endMs": 15297,
+        "count": 1,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 17905,
+        "endMs": 17905,
+        "count": 1,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 18945,
+        "endMs": 18945,
+        "count": 1,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 28201,
+        "endMs": 28201,
+        "count": 1,
+        "role": "build-up",
+        "context": "lead note, onset not picked",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 32019,
+        "endMs": 32019,
+        "count": 1,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "high"
+      },
+      {
+        "startMs": 34064,
+        "endMs": 34064,
+        "count": 1,
+        "role": "build-up",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 34985,
+        "endMs": 35701,
+        "count": 4,
+        "role": "verse",
+        "context": "lead note, onset not picked",
+        "band": "sub"
+      },
+      {
+        "startMs": 36962,
+        "endMs": 37167,
+        "count": 2,
+        "role": "verse",
+        "context": "drums or percussion only",
+        "band": "high"
+      },
+      {
+        "startMs": 37763,
+        "endMs": 37763,
+        "count": 1,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "low"
+      },
+      {
+        "startMs": 38598,
+        "endMs": 38598,
+        "count": 1,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 42229,
+        "endMs": 42229,
+        "count": 1,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "low"
+      },
+      {
+        "startMs": 46508,
+        "endMs": 46780,
+        "count": 2,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 48689,
+        "endMs": 48689,
+        "count": 1,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "low"
+      },
+      {
+        "startMs": 50462,
+        "endMs": 50888,
+        "count": 3,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 51689,
+        "endMs": 51689,
+        "count": 1,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 53309,
+        "endMs": 53309,
+        "count": 1,
+        "role": "verse",
+        "context": "drums or percussion only",
+        "band": "highMid"
+      },
+      {
+        "startMs": 60417,
+        "endMs": 60417,
+        "count": 1,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 63519,
+        "endMs": 63655,
+        "count": 2,
+        "role": "verse",
+        "context": "held lead note (no new onset)",
+        "band": "sub"
+      },
+      {
+        "startMs": 66144,
+        "endMs": 66417,
+        "count": 2,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 67883,
+        "endMs": 67883,
+        "count": 1,
+        "role": "verse",
+        "context": "held lead note (no new onset)",
+        "band": "sub"
+      },
+      {
+        "startMs": 69144,
+        "endMs": 69144,
+        "count": 1,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 71973,
+        "endMs": 72383,
+        "count": 3,
+        "role": "verse",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 76354,
+        "endMs": 76354,
+        "count": 1,
+        "role": "drop",
+        "context": "quiet passage",
+        "band": "low"
+      },
+      {
+        "startMs": 77598,
+        "endMs": 77598,
+        "count": 1,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "low"
+      },
+      {
+        "startMs": 88780,
+        "endMs": 88780,
+        "count": 1,
+        "role": "drop",
+        "context": "bass / low end",
+        "band": "low"
+      },
+      {
+        "startMs": 89735,
+        "endMs": 89735,
+        "count": 1,
+        "role": "drop",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 90962,
+        "endMs": 90962,
+        "count": 1,
+        "role": "drop",
+        "context": "bass / low end",
+        "band": "low"
+      },
+      {
+        "startMs": 91951,
+        "endMs": 92479,
+        "count": 2,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "sub"
+      },
+      {
+        "startMs": 94644,
+        "endMs": 94644,
+        "count": 1,
+        "role": "drop",
+        "context": "bass / low end",
+        "band": "low"
+      },
+      {
+        "startMs": 121201,
+        "endMs": 121201,
+        "count": 1,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "high"
+      },
+      {
+        "startMs": 128292,
+        "endMs": 128292,
+        "count": 1,
+        "role": "build-up",
+        "context": "bass / low end",
+        "band": "sub"
+      },
+      {
+        "startMs": 132655,
+        "endMs": 132655,
+        "count": 1,
+        "role": "drop",
+        "context": "drums or percussion only",
+        "band": "high"
+      },
+      {
+        "startMs": 137019,
+        "endMs": 137019,
+        "count": 1,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "high"
+      },
+      {
+        "startMs": 139013,
+        "endMs": 139013,
+        "count": 1,
+        "role": "drop",
+        "context": "drums or percussion only",
+        "band": "high"
+      },
+      {
+        "startMs": 140053,
+        "endMs": 140053,
+        "count": 1,
+        "role": "drop",
+        "context": "drums or percussion only",
+        "band": "high"
+      },
+      {
+        "startMs": 144161,
+        "endMs": 144161,
+        "count": 1,
+        "role": "drop",
+        "context": "inside a lead run",
+        "band": "lowMid"
+      },
+      {
+        "startMs": 154473,
+        "endMs": 154473,
+        "count": 1,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "high"
+      },
+      {
+        "startMs": 158837,
+        "endMs": 158837,
+        "count": 1,
+        "role": "drop",
+        "context": "drums or percussion only",
+        "band": "high"
+      },
+      {
+        "startMs": 162212,
+        "endMs": 162212,
+        "count": 1,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "highMid"
+      },
+      {
+        "startMs": 171331,
+        "endMs": 171331,
+        "count": 1,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "highMid"
+      },
+      {
+        "startMs": 172047,
+        "endMs": 172047,
+        "count": 1,
+        "role": "drop",
+        "context": "held lead note (no new onset)",
+        "band": "sub"
+      },
+      {
+        "startMs": 175712,
+        "endMs": 175712,
+        "count": 1,
+        "role": "verse",
+        "context": "drums or percussion only",
+        "band": "high"
+      },
+      {
+        "startMs": 194292,
+        "endMs": 194292,
+        "count": 1,
+        "role": "outro",
+        "context": "held lead note (no new onset)",
+        "band": "sub"
+      },
+      {
+        "startMs": 203496,
+        "endMs": 203496,
+        "count": 1,
+        "role": "outro",
+        "context": "held lead note (no new onset)",
+        "band": "lowMid"
+      }
+    ],
+    "missCount": 71
+  },
+  "repetition": {
+    "reference": {
+      "groups": [
+        {
+          "group": 0,
+          "instances": 3,
+          "consistency": 0.5921212018772994
+        },
+        {
+          "group": 1,
+          "instances": 7,
+          "consistency": 0.6860543166774908
+        },
+        {
+          "group": 2,
+          "instances": 2,
+          "consistency": 0.3191489361702128
+        },
+        {
+          "group": 3,
+          "instances": 3,
+          "consistency": 0.6142072902942468
+        },
+        {
+          "group": 4,
+          "instances": 6,
+          "consistency": 0.6507288765486344
+        }
+      ],
+      "overall": 0.6173350868994907
+    },
+    "generated": {
+      "groups": [
+        {
+          "group": 0,
+          "instances": 3,
+          "consistency": 0.615879588550396
+        },
+        {
+          "group": 1,
+          "instances": 7,
+          "consistency": 0.5663158252487585
+        },
+        {
+          "group": 2,
+          "instances": 2,
+          "consistency": 0.6304347826086957
+        },
+        {
+          "group": 3,
+          "instances": 3,
+          "consistency": 0.7137345056599717
+        },
+        {
+          "group": 4,
+          "instances": 6,
+          "consistency": 0.6033960727541606
+        }
+      ],
+      "overall": 0.6111570981483223
+    }
+  }
+}

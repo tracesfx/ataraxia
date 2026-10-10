@@ -1,0 +1,5 @@
+dist
+dist-studio
+node_modules
+coverage
+package-lock.json
