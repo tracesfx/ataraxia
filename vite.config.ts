@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitest/config';
+import { loadEnv } from 'vite';
 import { GAME_TITLE, STUDIO_TITLE } from './src/core/constants.ts';
+
 
 /**
  * Two builds from one codebase (see docs/architecture.md):
@@ -12,8 +14,10 @@ export default defineConfig(({ command, mode, isPreview }) => {
   // The dev server defaults to Studio; `vite preview` serves the player build unless --mode studio.
   const studio = mode === 'studio' || (command === 'serve' && !isPreview && mode !== 'player');
   const title = studio ? STUDIO_TITLE : GAME_TITLE;
+  const env = loadEnv(mode, '.', 'VITE_');
+
   return {
-    base: './',
+    base: env.VITE_BASE ?? '/',
     define: {
       __STUDIO__: JSON.stringify(studio),
     },
