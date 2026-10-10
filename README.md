@@ -24,3 +24,4 @@ See [CLAUDE.md](CLAUDE.md) for the rules and roadmap and
 [docs/architecture.md](docs/architecture.md) for how the two builds work.
 
 Showcase video: https://www.youtube.com/watch?v=-Fn40HK3BT0
+Try on your browser: https://tracesfx.github.io/ataraxia/
