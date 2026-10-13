@@ -1,4 +1,5 @@
 # ataraxia
+<img width="2555" height="1299" alt="image" src="https://github.com/user-attachments/assets/86976cc3-1136-420f-a642-35e28d4fa54a" />
 
 An original 4-key rhythm game for the browser. Notes scroll down to a hit line; play them with
 **S D J K** (rebindable in Settings). Everything runs locally; no server or account.
